@@ -11,13 +11,14 @@ function App() {
       <Form user={user} setUser={setUser}/>
       
       <div>
+      <h2>Team Member Information</h2>
             {user.map(user=>(
                 <div key={user.id}>
                     <p>Name: {user.name}</p>
                     <p>Email: {user.email}</p>
                     <p>Password: {user.password}</p>
                 </div>))}
-                <h2>Team Member Information</h2>
+                
     </div>
     </div>
   );

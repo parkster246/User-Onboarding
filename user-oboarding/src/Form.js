@@ -101,7 +101,7 @@ return(
         </label>
         <label htmlFor='emailInput'>Email
             <input
-                type='text' 
+                type='email' 
                 placeholder='Email' 
                 name='email' 
                 id='emailInput'
@@ -112,7 +112,7 @@ return(
         </label>
         <label htmlFor='passwordInput'>Password
         <input
-                type='text' 
+                type='password' 
                 placeholder='Password' 
                 name='password' 
                 id='passwordInput'
@@ -132,7 +132,7 @@ return(
             </input>
         </label>
         <pre>{JSON.stringify(post, null, 2)}</pre>
-        <button disabled={buttonDisabled}>Submit</button>
+        <button type='submit' disabled={buttonDisabled}>Submit</button>
         
         
         </form>
