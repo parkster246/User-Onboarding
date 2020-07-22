@@ -131,6 +131,7 @@ return(
                 onChange={inputChange}>
             </input>
         </label>
+        <pre>{JSON.stringify(post, null, 2)}</pre>
         <button disabled={buttonDisabled}>Submit</button>
         
         
