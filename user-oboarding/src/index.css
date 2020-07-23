@@ -21,6 +21,8 @@ form {
   height: 50vh;
   background: linear-gradient(to right, lightblue, rgb(153,153,143), mintcream, darkseagreen, lightcyan);
   border: 5px solid rgb(209, 211, 235);
+  opacity: 0%;
+transition:opacity 0.8s
 }
 input {
   margin: 5px;
@@ -70,4 +72,8 @@ button:hover span{
 button:hover span:after{
   opacity: 1;
   right:0;
+}
+form:hover{
+  opacity:100%;
+transition:opacity 0.5s
 }
